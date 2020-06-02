@@ -6,7 +6,6 @@
 // @author       malcolm-mill
 // @match        http://*/*
 // @match        https://*/*
-// @require http://code.jquery.com/jquery-latest.js
 // @grant        none
 // ==/UserScript==
 
@@ -16,6 +15,4 @@
     // Your code here...
    console.log("hello, world!");
    alert('hello world');
-    //$('body').append('<input type="button" value="Open" id="CP">');
-    //$("#CP").css("position", "fixed").css("top", 0).css("left", 0);
 })();
