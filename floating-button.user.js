@@ -18,7 +18,7 @@
     input.type="button";
     input.value="GreaseMonkey Button";
     input.onclick = showAlert;
-    input.setAttribute("style", "font-size:18px;position:fixed;display:block;padding:8px;top:100px;left:8px;");
+    input.setAttribute("style", "font-size:18px;position:fixed;display:block;padding:8px;top:100px;left:8px;z-index:2147483647;");
     document.body.appendChild(input);
 
     function showAlert()
