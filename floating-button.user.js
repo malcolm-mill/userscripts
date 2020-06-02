@@ -5,6 +5,7 @@
 // @description  try to take over the world!
 // @author       You
 // @match        http://*/*
+// @match        https://*/*
 // @require      http://code.jquery.com/jquery-latest.js
 // @grant        none
 // ==/UserScript==
